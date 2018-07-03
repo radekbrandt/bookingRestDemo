@@ -6,12 +6,13 @@ Uses:
 
 
 # Backend
-Run by executing: mvn clean spring-boot:run
+Run by executing: 
+ - mvn clean spring-boot:run
 
 # Console client
 Run by executing:
-  mvn clean install
-  java -jar target\booking-demo-client-0.0.1-SNAPSHOT.jar
+  - mvn clean install
+  - java -jar target\booking-demo-client-0.0.1-SNAPSHOT.jar
   
 # Database console
 You see database tables using embedded H2 web console. Server (backend) must be running. Open in a browser: 
